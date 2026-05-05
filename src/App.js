@@ -8,20 +8,24 @@ import Places from "./components/Places/Places";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import FloatingSocialMedia from "./components/FloatingSocialMedia";
+import Blog from "./components/Blog/Blog";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <FloatingSocialMedia/>
-        <div>
+        <div className="pt-[110px] md:pt-[140px]">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/place-to-visit" element={<Places />} />
+            <Route path="/places-to-visit" element={<Places />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
           <Footer />
         </div>

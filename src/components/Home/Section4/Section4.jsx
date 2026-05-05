@@ -89,7 +89,7 @@ const Section4 = () => {
         <h1 className="text-5xl font-marcellus text-center">
           Nearest Places To Visit
         </h1>
-        <p className="text-greyColor text-center">
+        <p className="text-greyColor text-center text-[1.8vmax] md:text-[1.1vmax] lg:text-[1.1vmax]">
           Designed for the discerning traveler, a tailored retreat providing
           exceptional experiences.
         </p>
@@ -114,7 +114,7 @@ const Section4 = () => {
         </div>
       </section>
       <div className="flex items-center justify-center">
-        <Link to="nagagiri_comforts/contact">
+        <Link to="/contact">
           <button className="bg-sky-600 py-2 sm:py-4 px-4 sm:px-8 font-semibold text-white transition-all hover:bg-primary">
             BOOK NOW
           </button>

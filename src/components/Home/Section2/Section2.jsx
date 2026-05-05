@@ -12,33 +12,33 @@ const Section2 = () => {
 
         <section className="w-[100%] md:w-[50%] flex flex-col items-center md:items-start gap-6  md:gap-9 px-4">
           <div className="flex flex-col  md:items-start gap-4 border-l-4 px-2 border-indigo-600">
-            <p className="text-[2vmax] md:text-[1vmax] lg:text-[1vmax] px-1 ">
+            <p className="text-[2.2vmax] md:text-[1.2vmax] lg:text-[1.2vmax] px-1 ">
               WELCOME TO{" "}
               <span className="bg-primary px-2 text-white">
                 NAGAGIRI COMFORTS
               </span>{" "}
               - BEST RESORTS IN HORANADU
             </p>
-            <h1 className="text-4xl font-marcellus">
+            <h1 className="text-4xl md:text-5xl font-marcellus">
               THE BEST STAY IN NEAR{" "}
               <span className="text-primary">HORANADU</span>
             </h1>
           </div>
           <div className="flex flex-col justify-start items-start gap-2">
-            <p className="text-[1.6vmax] md:text-[0.99vmax] lg:text-[0.99vmax] text-center lg:text-justify xl:text-justify md:text-justify ">
+            <p className="text-[1.8vmax] md:text-[1.1vmax] lg:text-[1.1vmax] text-center lg:text-justify xl:text-justify md:text-justify ">
               Located in the serene surroundings of Horanadu, near the renowned
               Annapoorneshwari Temple, Nagagiri Comfort offers a welcoming
               retreat for families and travelers. Our spacious rooms comfortably
               accommodate 3-4 guests, ensuring a cozy and relaxed stay.
             </p>
-            <p className="text-[1.6vmax] md:text-[0.99vmax] lg:text-[0.99vmax] text-center lg:text-justify xl:text-justify md:text-justify ">
+            <p className="text-[1.8vmax] md:text-[1.1vmax] lg:text-[1.1vmax] text-center lg:text-justify xl:text-justify md:text-justify ">
               We pride ourselves on exceptional hospitality. Our dedicated
               staff, including the owner, are committed to making your stay as
               pleasant as possible. Enjoy delicious meals prepared fresh on
               request, and take advantage of our 24/7 hot water supply. We even
               assist with car cleaning for your convenience.
             </p>
-            <p className="text-[1.6vmax] md:text-[0.99vmax] lg:text-[0.99vmax] text-center lg:text-justify xl:text-justify md:text-justify ">
+            <p className="text-[1.8vmax] md:text-[1.1vmax] lg:text-[1.1vmax] text-center lg:text-justify xl:text-justify md:text-justify ">
               While internet coverage might be limited due to our scenic hilltop
               location, the tranquil environment more than makes up for it. We
               are confident you will have a memorable experience and look
@@ -46,7 +46,7 @@ const Section2 = () => {
             </p>
           </div>
           <div>
-            <Link to="nagagiri_comforts/contact">
+            <Link to="/contact">
               <button className="bg-sky-600 py-4 px-8 font-semibold text-white transition-all hover:bg-primary">
                 CONTACT US
               </button>

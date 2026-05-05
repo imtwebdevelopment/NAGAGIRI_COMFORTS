@@ -9,8 +9,9 @@ module.exports = {
         secondery: "#fffaf1",
       },
       fontFamily: {
-        sans: ["Poppins", "sans-serif"],
+        sans: ["Montserrat", "Poppins", "sans-serif"],
         marcellus: ["Marcellus", "serif"],
+        playfair: ["Playfair Display", "serif"],
       },
     },
     plugins: [],

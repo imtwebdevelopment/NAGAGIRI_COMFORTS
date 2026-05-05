@@ -57,7 +57,7 @@ const Section1 = () => {
           <h1 className="text-3xl sm:text-5xl font-marcellus font-bold text-black bg-[rgba(255,255,255,0.6)] py-3 px-3">
             NAGAGIRI COMFORTS
           </h1>
-          <Link to="nagagiri_comforts/contact">
+          <Link to="/contact">
             <button className="bg-sky-600 py-2 sm:py-4 px-4 sm:px-8 font-semibold text-white transition-all hover:bg-primary">
               CONTACT US
             </button>

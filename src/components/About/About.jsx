@@ -53,25 +53,51 @@ const About = () => {
       </section>
 
       {/* 2nd section */}
-      <section className="bg-[#f3eee8] px-5">
-        <div className="container mx-auto py-10">
-          <h1 className="text-4xl font-marcellus">Why Choose Us</h1>
-          {array.map((items)=>(
-            <>
-              <div key={items.id} className="mt-7 flex flex-col gap-5">
-                {/* <img src={items.img} alt={items.alt} className="max-w-40" /> */}
-                <h1 className="font-semibold uppercase text-primary text-2xl">{items.title}</h1>
-                <p className="font-extralight">{items.desc}</p>
+      <section className="bg-[#f3eee8] px-5 py-16">
+        <div className="container mx-auto">
+          <h1 className="text-5xl font-marcellus text-center mb-14 text-gray-800">Why Choose Us</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {array.map((items) => (
+              <div key={items.id} className="flip-card w-full h-[380px] group">
+                <div className="flip-card-inner shadow-xl rounded-2xl">
+                  {/* Front Side */}
+                  <div className="flip-card-front bg-white p-6 flex flex-col gap-6 border border-gray-100">
+                    <div className="overflow-hidden rounded-xl h-56">
+                      <img
+                        src={items.img}
+                        alt={items.alt}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <h1 className="font-bold uppercase text-primary text-xl text-center">
+                      {items.title}
+                    </h1>
+                  </div>
+
+                  {/* Back Side */}
+                  <div className="flip-card-back bg-primary p-8 flex flex-col items-center justify-center text-center">
+                    <div className="absolute top-4 left-4 opacity-20">
+                      <h1 className="text-6xl font-bold text-white select-none">0{items.id}</h1>
+                    </div>
+                    <h1 className="font-bold uppercase text-white text-xl mb-6 tracking-wide">
+                      {items.title}
+                    </h1>
+                    <p className="text-white font-light text-sm leading-relaxed px-2">
+                      {items.desc}
+                    </p>
+                    <div className="mt-8 h-1 w-12 bg-white rounded-full"></div>
+                  </div>
+                </div>
               </div>
-            </>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 
 
       {/* 3rd Section */}
       <section>
-        <Section4/>
+        <Section4 />
       </section>
     </div>
   );
