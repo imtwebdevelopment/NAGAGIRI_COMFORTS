@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
 import Section2 from "../Home/Section2/Section2";
 import image1 from "../../assets/AboutUs/whychooseus/nagagiri_comforts1.webp"
 import image2 from "../../assets/AboutUs/whychooseus/nagagiri_comforts2.webp"

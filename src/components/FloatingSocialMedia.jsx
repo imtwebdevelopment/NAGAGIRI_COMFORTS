@@ -23,7 +23,7 @@ const FloatingSocialMedia = () => {
 
       {/* Instagram */}
       <a
-        href="#"
+        href="https://www.instagram.com/nagagiri_comforts/"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white rounded-full shadow-lg hover:opacity-90 transition"

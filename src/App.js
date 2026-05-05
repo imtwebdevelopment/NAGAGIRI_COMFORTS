@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Places from "./components/Places/Places";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
-import WhatsupButton from "./components/WhatsupButton/WhatsupButton";
 import FloatingSocialMedia from "./components/FloatingSocialMedia";
 
 function App() {
@@ -27,7 +26,7 @@ function App() {
           <Footer />
         </div>
       </Router>
-      {/* <WhatsupButton /> */}
+
     </>
   );
 }
