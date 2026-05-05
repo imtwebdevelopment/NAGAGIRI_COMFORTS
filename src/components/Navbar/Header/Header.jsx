@@ -45,7 +45,6 @@ const Header = () => {
     { name: 'About Us', path: '/about' },
     { name: 'Places To Visit', path: '/places-to-visit' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Events', path: '/' },
     { name: 'Blogs', path: '/blog' },
     { name: 'Contact', path: '/contact' }
   ];
@@ -63,7 +62,7 @@ const Header = () => {
               </section>
               <section className="flex items-center gap-2 hover:text-primary transition-colors cursor-pointer hidden md:flex group">
                 <FaEnvelopeOpen className="text-primary group-hover:scale-110 transition-transform" />
-                <div className="flex flex-row items-center gap-4">
+                <div className="flex flex-row items-center gap-4 text-[11px] lowercase tracking-normal">
                   <a href="mailto:adishjain73@gmail.com">adishjain73@gmail.com</a>
                   <span className="text-gray-600">|</span>
                   <a href="mailto:nagagiricomforts26@gmail.com">nagagiricomforts26@gmail.com</a>

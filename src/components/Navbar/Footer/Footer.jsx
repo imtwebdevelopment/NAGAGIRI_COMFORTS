@@ -58,10 +58,10 @@ const Footer = () => {
               <div className="flex items-center gap-4">
                 <FaEnvelope className="text-primary text-lg shrink-0" />
                 <div className="flex flex-col gap-1">
-                  <a href="mailto:adishjain73@gmail.com" className="text-sm hover:text-primary transition-colors">
+                  <a href="mailto:adishjain73@gmail.com" className="text-[0.8rem] hover:text-primary transition-colors">
                     adishjain73@gmail.com
                   </a>
-                  <a href="mailto:nagagiricomforts26@gmail.com" className="text-sm hover:text-primary transition-colors">
+                  <a href="mailto:nagagiricomforts26@gmail.com" className="text-[0.8rem] hover:text-primary transition-colors">
                     nagagiricomforts26@gmail.com
                   </a>
                 </div>

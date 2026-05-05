@@ -86,7 +86,7 @@ const Testimonials = () => {
                 </p>
 
                 <div className="pt-6 border-t border-gray-50 mt-auto">
-                  <h3 className="font-playfair font-bold text-gray-800 text-lg tracking-wide italic">
+                  <h3 className="font-marcellus font-bold text-gray-800 text-sm tracking-widest uppercase">
                     {item.name}
                   </h3>
                 </div>

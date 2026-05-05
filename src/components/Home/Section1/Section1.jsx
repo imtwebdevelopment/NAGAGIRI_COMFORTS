@@ -54,7 +54,7 @@ const Section1 = () => {
           ))}
         </Fade>
         <div className="absolute inset-0 flex flex-col gap-4 items-center justify-center z-10">
-          <h1 className="text-3xl sm:text-5xl font-marcellus font-bold text-black bg-[rgba(255,255,255,0.6)] py-3 px-3">
+          <h1 className="text-3xl sm:text-5xl font-playfair font-bold text-black bg-[rgba(255,255,255,0.6)] py-3 px-6 tracking-wider">
             NAGAGIRI COMFORTS
           </h1>
           <Link to="/contact">

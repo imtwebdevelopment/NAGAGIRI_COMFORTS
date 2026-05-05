@@ -49,9 +49,7 @@ const Blog = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gray-800 mb-4">Latest Stories</h2>
             <div className="h-1 w-20 bg-primary/30 mx-auto rounded-full"></div>
-            <p className="text-greyColor mt-6 max-w-2xl mx-auto italic font-sans">
-              Discover travel tips, local insights, and stories from the heart of Horanadu.
-            </p>
+
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

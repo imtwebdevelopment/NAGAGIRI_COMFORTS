@@ -69,17 +69,17 @@ const About = () => {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <h1 className="font-bold uppercase text-primary text-xl text-center">
+                    <h1 className="font-playfair uppercase text-primary text-lg text-center tracking-wide font-bold">
                       {items.title}
                     </h1>
                   </div>
 
                   {/* Back Side */}
                   <div className="flip-card-back bg-primary p-8 flex flex-col items-center justify-center text-center">
-                    <div className="absolute top-4 left-4 opacity-20">
-                      <h1 className="text-6xl font-bold text-white select-none">0{items.id}</h1>
+                    <div className="absolute top-6 left-6 opacity-25">
+                      <h1 className="text-7xl font-marcellus text-white select-none">0{items.id}</h1>
                     </div>
-                    <h1 className="font-bold uppercase text-white text-xl mb-6 tracking-wide">
+                    <h1 className="font-playfair uppercase text-white text-lg mb-6 tracking-widest font-bold">
                       {items.title}
                     </h1>
                     <p className="text-white font-light text-sm leading-relaxed px-2">

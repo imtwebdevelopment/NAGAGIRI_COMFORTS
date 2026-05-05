@@ -64,8 +64,8 @@ const Section5 = () => {
           <span className="text-gray-500 tracking-[0.2em] text-base md:text-lg font-semibold uppercase">
             Reach Us
           </span>
-          <h1 className="text-4xl font-marcellus text-gray-800 leading-tight">
-            Send Us Your Enquires
+          <h1 className="text-4xl font-playfair font-bold text-gray-800 leading-tight">
+            Send Us Your Enquiries
           </h1>
           <p className="text-gray-600 text-base md:text-lg mt-1">
             Create Unforgettable Memories at Nagagiri Comforts Today.
@@ -117,10 +117,10 @@ const Section5 = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center p-8 text-center">
-          <h2 className="text-white text-3xl md:text-4xl font-marcellus leading-tight mb-3 drop-shadow-lg">
+          <h2 className="text-white text-3xl md:text-4xl font-playfair font-bold leading-tight mb-3 drop-shadow-lg">
             Plan an Unforgettable Experience in Nagagiri Comforts Today
           </h2>
-          <p className="text-white italic text-base mb-8 drop-shadow-md">
+          <p className="text-white font-marcellus text-lg mb-8 drop-shadow-md tracking-[0.2em] uppercase">
             " Best Resorts In Chikmagalur "
           </p>
 
@@ -160,13 +160,13 @@ const Section5 = () => {
             .animate-modal-fade { animation: modalFadeIn 0.3s ease-out forwards; }
             .animate-modal-zoom { animation: modalZoomIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
           `}</style>
-          <div 
+          <div
             className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-modal-fade"
             onClick={() => setModal((prev) => ({ ...prev, show: false }))}
           ></div>
           <div className="relative bg-white rounded-3xl shadow-2xl max-w-md w-full overflow-hidden animate-modal-zoom">
             <div className={`h-2.5 w-full ${modal.status === 'success' ? 'bg-green-500' : 'bg-red-500'}`}></div>
-            <button 
+            <button
               onClick={() => setModal((prev) => ({ ...prev, show: false }))}
               className="absolute top-5 right-5 text-gray-400 hover:text-gray-600 hover:rotate-90 transition-all duration-300"
             >
@@ -187,13 +187,12 @@ const Section5 = () => {
               <p className="text-gray-500 text-sm leading-relaxed px-2">
                 {modal.message}
               </p>
-              <button 
+              <button
                 onClick={() => setModal((prev) => ({ ...prev, show: false }))}
-                className={`mt-4 w-full py-3.5 rounded-xl font-bold text-white tracking-widest transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] ${
-                  modal.status === 'success' 
-                    ? 'bg-green-500 hover:bg-green-600 shadow-xl shadow-green-100' 
+                className={`mt-4 w-full py-3.5 rounded-xl font-bold text-white tracking-widest transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] ${modal.status === 'success'
+                    ? 'bg-green-500 hover:bg-green-600 shadow-xl shadow-green-100'
                     : 'bg-red-500 hover:bg-red-600 shadow-xl shadow-red-100'
-                }`}
+                  }`}
               >
                 CONTINUE
               </button>

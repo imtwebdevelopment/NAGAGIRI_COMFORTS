@@ -19,8 +19,8 @@ const Section2 = () => {
               </span>{" "}
               - BEST RESORTS IN HORANADU
             </p>
-            <h1 className="text-4xl md:text-5xl font-marcellus">
-              THE BEST STAY IN NEAR{" "}
+            <h1 className="text-4xl md:text-5xl font-marcellus text-gray-800 tracking-wider">
+              THE BEST STAY NEAR{" "}
               <span className="text-primary">HORANADU</span>
             </h1>
           </div>

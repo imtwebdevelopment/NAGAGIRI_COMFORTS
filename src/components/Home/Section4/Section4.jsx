@@ -102,10 +102,10 @@ const Section4 = () => {
             {array.map((item) => (
               <div key={item.title} className="flex flex-col">
                 <img src={item.img} alt={item.title} />
-                <h1 className="text-center mt-5 text-[1.7vmax] md:text-[1.2vmax] lg:text-[1.2vmax] xl:text-[1.2vmax] uppercase font-bold text-primary">
+                <h1 className="text-center mt-5 text-[1rem] md:text-[0.9rem] lg:text-[0.9rem] xl:text-[0.9rem] uppercase font-bold text-primary font-playfair tracking-wide">
                   {item.title}
                 </h1>
-                <p className="text-center uppercase font-bold text-black">
+                <p className="text-center uppercase font-bold text-black text-[0.8rem]">
                   {item.km}
                 </p>
               </div>

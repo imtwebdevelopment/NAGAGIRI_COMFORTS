@@ -40,8 +40,8 @@ const Section3 = () => {
     <div className="bg-[#fffaf1] py-8 px-4 sm:px-6 lg:px-8">
       {/* top section */}
       <section className="mb-12">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-marcellus text-center leading-tight mb-4">
-          Facilities & Highlights of our Hotel
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-playfair font-semibold text-center leading-tight mb-4 text-gray-800">
+          Facilities & Highlights
         </h1>
         <p className="text-gray-600 text-center max-w-2xl mx-auto">
           Designed for the discerning traveler, a tailored retreat providing
@@ -61,7 +61,7 @@ const Section3 = () => {
               >
                 <div className="p-6 flex flex-col items-center text-center h-full">
                   <IconComponent className="text-4xl mb-4 text-primary" />
-                  <h2 className="text-xl font-bold text-primary mb-2">
+                  <h2 className="text-xl font-playfair font-bold text-primary mb-3 tracking-wide">
                     {item.title}
                   </h2>
                   <p className="text-sm text-gray-600 flex-grow">{item.desc}</p>
