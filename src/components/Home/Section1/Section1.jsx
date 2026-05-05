@@ -5,7 +5,6 @@ import banner4 from "../../../assets/Home/nagagiricomfortschickmagaluru2.webp";
 import banner5 from "../../../assets/Home/nagagiricomfortschickmagaluru3.webp";
 import banner6 from "../../../assets/Home/nagagiricomfortschickmagaluru4.webp";
 import banner7 from "../../../assets/Home/nagagiricomfortschickmagaluru5.webp";
-import banner8 from "../../../assets/Home/nagagiricomfortschickmagaluru6.webp";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { Link } from "react-router-dom";

@@ -1,15 +1,9 @@
 import React, { useState } from "react";
-import ModalImage from "react-modal-image";
 import img1 from "../../assets/gallery/nagagiri_comforts_horanadu (1).webp";
 import img2 from "../../assets/gallery/nagagiri_comforts_horanadu (2).webp";
 import img3 from "../../assets/gallery/nagagiri_comforts_horanadu (3).webp";
 import img4 from "../../assets/gallery/nagagiri_comforts_horanadu (4).webp";
-import img5 from "../../assets/gallery/nagagiri_comforts_horanadu (5).webp";
-import img6 from "../../assets/gallery/nagagiri_comforts_horanadu (6).webp";
-import img7 from "../../assets/gallery/nagagiri_comforts_horanadu (7).webp";
 import img8 from "../../assets/gallery/nagagiri_comforts_horanadu (8).webp";
-import img9 from "../../assets/gallery/nagagiri_comforts_horanadu (9).webp";
-import img10 from "../../assets/gallery/nagagiri_comforts_horanadu (10).webp";
 import img11 from "../../assets/gallery/nagagiri_comforts_horanadu (11).webp";
 import img12 from "../../assets/gallery/nagagiri_comforts_horanadu (12).webp";
 import img13 from "../../assets/gallery/nagagiri_comforts_horanadu (13).webp";
