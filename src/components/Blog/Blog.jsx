@@ -3,7 +3,7 @@ import banner from "../../assets/Home/nagagiricomfortschickmagaluru2.webp";
 import blog1 from "../../assets/Home/nagagiricomfortschickmagaluru1.webp";
 import blog2 from "../../assets/Home/nagagiricomfortschickmagaluru3.webp";
 import blog3 from "../../assets/Home/nagagiricomfortschickmagaluru4.webp";
-import { Link } from 'react-router-dom';
+
 
 const Blog = () => {
   const blogPosts = [

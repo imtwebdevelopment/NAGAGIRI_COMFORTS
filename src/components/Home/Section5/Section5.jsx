@@ -139,7 +139,7 @@ const Section5 = () => {
             <a href="https://www.instagram.com/nagagiri_comforts/" target="_blank" rel="noopener noreferrer" className="bg-black/50 backdrop-blur-md text-white p-2.5 rounded hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:shadow-[0_0_15px_rgba(220,39,67,0.5)] transition-all group">
               <FaInstagram size={18} className="group-hover:scale-110" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="bg-black/50 backdrop-blur-md text-white p-2.5 rounded hover:bg-[#FF0000] hover:shadow-[0_0_15px_rgba(255,0,0,0.5)] transition-all group">
+            <a href="https://www.youtube.com/@nagagiricomforts" target="_blank" rel="noopener noreferrer" className="bg-black/50 backdrop-blur-md text-white p-2.5 rounded hover:bg-[#FF0000] hover:shadow-[0_0_15px_rgba(255,0,0,0.5)] transition-all group">
               <FaYoutube size={18} className="group-hover:scale-110" />
             </a>
           </div>

@@ -45,7 +45,7 @@ const Header = () => {
     { name: 'About Us', path: '/about' },
     { name: 'Places To Visit', path: '/places-to-visit' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Events', path: '#' },
+    { name: 'Events', path: '/' },
     { name: 'Blogs', path: '/blog' },
     { name: 'Contact', path: '/contact' }
   ];
@@ -77,7 +77,7 @@ const Header = () => {
               <a href="https://www.instagram.com/nagagiri_comforts/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="text-gray-400 hover:text-[#E4405F] cursor-pointer transition-all hover:scale-125" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@nagagiricomforts" target="_blank" rel="noopener noreferrer">
                 <FaYoutube className="text-gray-400 hover:text-[#FF0000] cursor-pointer transition-all hover:scale-125" />
               </a>
             </section>

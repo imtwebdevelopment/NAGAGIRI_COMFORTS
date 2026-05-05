@@ -36,7 +36,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/nagagiri_comforts/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:shadow-[0_0_15px_rgba(220,39,67,0.5)] transition-all duration-300 group">
                 <FaInstagram className="text-lg group-hover:scale-110" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#FF0000] hover:shadow-[0_0_15px_rgba(255,0,0,0.5)] transition-all duration-300 group">
+              <a href="https://www.youtube.com/@nagagiricomforts" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#FF0000] hover:shadow-[0_0_15px_rgba(255,0,0,0.5)] transition-all duration-300 group">
                 <FaYoutube className="text-lg group-hover:scale-110" />
               </a>
             </div>
@@ -127,8 +127,8 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-8">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <Link to="/" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link to="/" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>
